@@ -1,0 +1,117 @@
+Aqui está um exemplo de código HTML para um site simples e original intitulado "Café da Manhã ao Redor do Mundo". Este site apresenta pratos de café da manhã de diferentes países, com imagens e uma breve descrição de cada prato. 
+
+### Código HTML:
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café da Manhã ao Redor do Mundo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            color: #343a40;
+        }
+        header {
+            background-color: #6f42c1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 30%;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #6f42c1;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Café da Manhã ao Redor do Mundo</h1>
+        <p>Explore os sabores matinais de diferentes culturas!</p>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/300?text=Paneer+Breakfast" alt="Café da Manhã Indiano">
+            <h2>Índia - Paneer Paratha</h2>
+            <p>Pão recheado com queijo fresco e especiarias, geralmente acompanhado de iogurte.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300?text=Croissant" alt="Café da Manhã Francês">
+            <h2>França - Croissant</h2>
+            <p>Pão laminado e amanteigado, perfeito para acompanhar uma xícara de café.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300?text=Acai+Bowl" alt="Café da Manhã Brasileiro">
+            <h2>Brasil - Açaí Bowl</h2>
+            <p>Uma tigela de açaí batido, servido com frutas, granola e mel.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300?text=Pancakes" alt="Café da Manhã Americano">
+            <h2>Estados Unidos - Pancakes</h2>
+            <p>Panquecas fofas servidas com maple syrup e frutas.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300?text=Shakshuka" alt="Café da Manhã Israelense">
+            <h2>Israel - Shakshuka</h2>
+            <p>Ovos cozidos em molho de tomate e especiarias, servidos com pão pita.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300?text=English+Breakfast" alt="Café da Manhã Inglês">
+            <h2>Inglaterra - English Breakfast</h2>
+            <p>Uma refeição abundante com ovos, bacon, salsichas e feijão.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Café da Manhã ao Redor do Mundo</p>
+    </footer>
+</body>
+</html>
+
+
+### Descrição do Código:
+- Estrutura Simples: O site possui um cabeçalho com o título e uma descrição, uma área central com cartões para cada prato de café da manhã, e um rodapé.
+- Cards Interativos: Cada prato é apresentado em um "card" que muda de tamanho ao passar o mouse, melhorando a interação do usuário.
+- Imagens: Substitua os links das imagens pelo URL das imagens que você deseja usar ou faça upload de suas próprias imagens.
+
+### Como Usar:
+1. Copie o código acima e cole em um arquivo com a extensão .html, como index.html.
+2. Abra esse arquivo em um navegador para visualizar o site.
+
+Sinta-se à vontade para personalizar estilos, texto e imagens para se adequarem mais à sua visão!
